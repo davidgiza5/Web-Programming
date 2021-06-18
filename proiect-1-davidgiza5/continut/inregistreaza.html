@@ -1,0 +1,92 @@
+
+
+        <form>
+            <fieldset>
+              <legend>Informatii generale:</legend>
+
+              <label for="nume">Nume utilizator:</label>
+              <input type="text" id="nume" name="nume"><br><br>
+
+              <label for="pass" >Parola: &emsp; &emsp; &nbsp; &nbsp; </label>
+              <input type="password" id="pass" name="pass"><br><br>
+
+              <label for="txt">Nume: &emsp; &emsp; &nbsp; &nbsp;</label>
+              <input type="text" id="txt" name="txt"><br><br>
+
+              <label for="textp">Prenume:&emsp; &emsp;  </label>
+              <input type="text" id="textp" name="textp"><br><br>
+
+              <label for="txte">Email: &emsp; &emsp; &emsp; </label>
+              <input type="email" id="txte" name="txte"><br><br>
+
+              <label for="txtt">Telefon: &emsp; &emsp; &nbsp; </label>
+              <input type="text" id="txtt" name="txtt"><br><br>
+              <input id="inp" type="submit" value="Inregistreaza">
+            </fieldset>
+
+
+            <fieldset>
+                
+                    <legend>Informatii personale:</legend>
+      
+                    <label for="Sexul">Alegeti:</label>
+                    <select name="Sexul" id="Sexul">
+                        <option value="Masculin">Masculin</option>
+                        <option value="Feminin">Feminin</option>
+                    </select>
+                    <br>
+                    <br>
+                    
+
+                    <label for="alegere-mancare">Mancarea preferata:</label>
+                    <input list="mancare" name="alegere-mancare" id="alegere-mancare">
+                    
+                    <datalist id="mancare">
+                      <option value="Paste">
+                      <option value="Pizza">
+                      <option value="Seafood">
+                      <option value="Supa">
+                      <option value="Steak">
+                    </datalist>
+                    <br>
+                    <br>
+
+                    <label for="culoare">Culoarea preferata:</label>
+                    <input type="color" id="culoare" name="culoare" value="#ff0000">
+                        
+                    <br>
+                    <br>
+                    
+
+                    <label for="datan">Data nasterii:</label>
+                    <input type="date" id="datan" name="datan">
+
+                    <br>
+                    <br>
+
+                    <label for="ora">Ora nasterii:</label>
+                    <input type="time" id="ora" name="ora">
+
+                    <br>
+                    <br>
+
+                    <label for="varsta">Varsta:</label>
+                    <input type="range" id="varsta" name="varsta" min="1" max="100">
+
+                    <br>
+                    <br>
+
+                    <label for="pgpers">Adresa paginii personale:</label>
+                    <input type="url" id="pgpers" name="pgpers">
+                    <br>
+			    <br>
+			    <br>
+
+                    <label for="desc">Descriere:</label>
+                    <textarea id="desc" name="desc">Descriere pagina HTML</textarea>
+                
+                  </fieldset>
+          </form> 
+       
+
+      
