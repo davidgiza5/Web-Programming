@@ -1,0 +1,122 @@
+body{
+    padding:1 px;
+    margin: 1px;
+    font-family: " Tahoma ", "Courier New", monospace;
+    background-image: url(../jpgs/4.png);
+    
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    border:1.5px solid rgb(71, 86, 151);
+    
+}
+
+p{
+    color:white;
+    font-size:18px;
+    font-weight: bolder;
+    padding-right:5px;
+    padding-left:15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  nav a{
+    padding-right: 15px;
+    padding-left:10px;
+    color:rgb(129, 0, 0);
+    line-height: 30px;
+    font-size:25px;
+    font-weight: bold;
+}
+
+
+h1{
+    text-align:center;
+    color:rgb(236, 223, 223);
+    font-size:30px;
+    font-weight: bold;
+    
+}
+
+h2{
+    
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(255, 30, 0);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+#randomise{
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    
+}
+
+.tombola{
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(255, 30, 0);
+}
+
+
+#cmp{
+    font-size:30px;
+    font-weight: bold;
+}
+
+#creare {
+    background-color: #140a99; 
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  #vinil2{
+      text-align: center;
+      font-size: 45px;
+      color: rgb(12, 170, 175);
+  }
+
+
+  #q{
+    font-size: 30px;
+    color:rgb(0, 0, 0);
+    text-shadow: 8px 8px 20px red;
+  
+  }
+
+  button{
+
+	padding: 10px 25px;
+	font-size: 25px;
+	line-height: 40px;
+	min-width: 150px;
+	text-align: center;
+	background: linear-gradient(to right bottom,#273c75,#079992);
+	color: #fff;
+	border-radius: 5px;
+	border:0px;
+	height: 60px;
+}
+
+#msc{
+    
+    text-align: center;
+    width: 80%;
+    padding: 200px;
+}
